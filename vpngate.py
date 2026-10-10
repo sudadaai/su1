@@ -86,7 +86,7 @@ EDGE_HOSTS = [
     for h in os.environ.get(
         "EDGE_HOSTS",
        
-        "",
+        "tango61.cf.090227.xyz",
     ).split(",")
     if h.strip()
 ]
